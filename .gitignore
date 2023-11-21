@@ -1,0 +1,9 @@
+# Folder / files
+*.csv
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+.ipynb_checkpoints
+
+# Mac os
+.DS_Store 
