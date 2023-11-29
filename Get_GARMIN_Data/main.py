@@ -1,4 +1,4 @@
-from garmin_function import save_csv
+from garmin_function import save_data
 from garminconnect import (Garmin,  
                            GarminConnectConnectionError, 
                            GarminConnectAuthenticationError, 
@@ -31,5 +31,5 @@ if __name__ == "__main__":
     password = input("Password: ")
     
     api = init_garmin_api(email, password)
-    save_csv(api, start_date, end_date)
+    save_data(api, start_date, end_date)
  
